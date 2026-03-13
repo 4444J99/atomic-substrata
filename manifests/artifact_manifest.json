@@ -539,256 +539,256 @@
     "artifact_id": "PLACEHOLDER-001",
     "path": "docs/01_governance/vision_and_thesis.md",
     "title": "Vision and Thesis Document",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-002",
     "path": "docs/01_governance/scope_and_exclusions_charter.md",
     "title": "Scope and Exclusions Charter",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-003",
     "path": "docs/01_governance/naming_convention_standard.md",
     "title": "Naming Convention Standard",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-004",
     "path": "docs/01_governance/security_and_rights_policy.md",
     "title": "Security and Rights Policy",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-005",
     "path": "docs/02_architecture/logical_data_model.md",
     "title": "Logical Data Model",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-006",
     "path": "docs/02_architecture/physical_storage_architecture.md",
     "title": "Physical Storage Architecture",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-007",
     "path": "docs/02_architecture/service_decomposition_spec.md",
     "title": "Service Decomposition Specification",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-008",
     "path": "docs/02_architecture/trust_boundary_map.md",
     "title": "Trust Boundary Map",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-009",
     "path": "docs/02_architecture/failure_mode_and_resilience_analysis.md",
     "title": "Failure Mode and Resilience Analysis",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-010",
     "path": "docs/02_architecture/nonfunctional_requirements_spec.md",
     "title": "Nonfunctional Requirements Specification",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-011",
     "path": "docs/03_schemas/cas_object_model.md",
     "title": "CAS Object Model",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-012",
     "path": "docs/03_schemas/hash_canonicalization_examples.md",
     "title": "Hash Canonicalization Examples",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-013",
     "path": "docs/04_refinery/ast_parsing_strategy.md",
     "title": "AST Parsing Strategy",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-014",
     "path": "docs/04_refinery/re_refinement_protocol.md",
     "title": "Re-Refinement Protocol",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-015",
     "path": "docs/04_refinery/qa_rubric.md",
     "title": "QA Rubric",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-016",
     "path": "docs/05_retrieval_assembly/recipe_persistence_spec.md",
     "title": "Recipe Persistence Specification",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-017",
     "path": "docs/06_interface_portal/consumer_interface_contract.md",
     "title": "Consumer Interface Contract",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-018",
     "path": "docs/07_operations/change_management_test_matrix.md",
     "title": "Change Management Test Matrix",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-019",
     "path": "docs/07_operations/incident_playbooks.md",
     "title": "Incident Playbooks",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-020",
     "path": "docs/08_evaluation/cost_and_capacity_model.md",
     "title": "Cost and Capacity Model",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-021",
     "path": "docs/08_evaluation/launch_readiness_scorecard.md",
     "title": "Launch Readiness Scorecard",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-022",
     "path": "docs/11_implementation/repository_generator_design.md",
     "title": "Repository Generator Design",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-023",
     "path": "docs/11_implementation/implementation_plan.md",
     "title": "Implementation Plan",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-024",
     "path": "docs/11_implementation/milestone_roadmap.md",
     "title": "Milestone Roadmap",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-025",
     "path": "docs/11_implementation/ci_cd_plan.md",
     "title": "CI/CD Plan",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-026",
     "path": "docs/11_implementation/environment_bootstrap.md",
     "title": "Environment Bootstrap",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-027",
     "path": "docs/12_seed_content/canonical_ontology_examples.md",
     "title": "Canonical Ontology Examples",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-028",
     "path": "docs/12_seed_content/sample_textatom_corpus.md",
     "title": "Sample TextAtom Corpus",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-029",
     "path": "docs/12_seed_content/sample_codeatom_corpus.md",
     "title": "Sample CodeAtom Corpus",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-030",
     "path": "docs/12_seed_content/rule_to_code_bridge_examples.md",
     "title": "Rule-to-Code Bridge Examples",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-031",
     "path": "docs/12_seed_content/initial_recipe_pack.md",
     "title": "Initial Recipe Pack",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   },
   {
     "artifact_id": "PLACEHOLDER-032",
     "path": "docs/02_architecture/uaks_v1_visual_architecture_image_asset.placeholder.md",
     "title": "UAKS v1 Visual Architecture Image Asset",
-    "status": "placeholder",
+    "status": "drafted_from_context",
     "pair_id": null,
-    "kind": "placeholder"
+    "kind": "drafted_document"
   }
 ]
