@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-03-12T20:19:51Z",
+  "artifacts": [
+    {
+      "artifact_id": "branch_assessment_existing_generation_1_repository",
+      "title": "Assessment of Existing Generation-1 Repository",
+      "source_title_exact": "Assessment",
+      "path": "docs/13_branch_excavations/assessment_of_existing_generation_1_repository.md",
+      "source_export": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler.json",
+      "source_pair_number": 3,
+      "kind": "branch_non_id_document",
+      "prompt_preview": "I've attempted to build this before and that version I am linking below. Tell me what you think and how we can improve. "
+    },
+    {
+      "artifact_id": "branch_addendum_memorandum_generation_2_migration",
+      "title": "Addendum Memorandum",
+      "source_title_exact": "Addendum Memorandum",
+      "path": "docs/13_branch_excavations/addendum_memorandum_generation_2_migration.md",
+      "source_export": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler.json",
+      "source_pair_number": 4,
+      "kind": "branch_non_id_document",
+      "prompt_preview": "Proceed; draft as draft as an addendum memo mapping with your suggestions don't duplicate any code from here instead wil"
+    },
+    {
+      "artifact_id": "branch_parallel_linguistic_analysis_integration_design",
+      "title": "Parallel Linguistic Analysis Integration Design",
+      "source_title_exact": "Yes \u2014 design for it now",
+      "path": "docs/13_branch_excavations/parallel_linguistic_analysis_integration_design.md",
+      "source_export": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler.json",
+      "source_pair_number": 5,
+      "kind": "branch_non_id_document",
+      "prompt_preview": "Simultaneously during the building and maintenance of this new version of the knowledge base, a parallel system elsewher"
+    },
+    {
+      "artifact_id": "branch_feature_lock_and_evolution_guidance",
+      "title": "Feature Lock and Evolution Guidance",
+      "source_title_exact": "Short answer: features are not locked. In a system like the one you are building, evolution is not just allowed\u2014it is an explicit design property of the architecture.",
+      "path": "docs/13_branch_excavations/feature_lock_and_evolution_guidance.md",
+      "source_export": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+      "source_pair_number": 8,
+      "kind": "branch_non_id_document",
+      "prompt_preview": "We finish this phase and move from specification into implementation, are features locked? Changes unwelcome, or it will"
+    },
+    {
+      "artifact_id": "branch_frontmatter_and_codebase_sync_guidance",
+      "title": "Frontmatter and Codebase Sync Guidance",
+      "source_title_exact": "Not fully.",
+      "path": "docs/13_branch_excavations/frontmatter_and_codebase_sync_guidance.md",
+      "source_export": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+      "source_pair_number": 9,
+      "kind": "branch_non_id_document",
+      "prompt_preview": "Have we designed the metadata and YML frontmatter unique ID info? And if so, how do we ensure that it is in sync with wh"
+    },
+    {
+      "artifact_id": "uaks_v1_metadata_identity_charter_20260311",
+      "title": "Metadata and Identity Charter v1",
+      "source_title_exact": "Metadata and Identity Charter v1",
+      "path": "docs/13_branch_excavations/uaks_v1_metadata_identity_charter_20260311.md",
+      "source_export": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+      "source_pair_number": 10,
+      "kind": "branch_drafted_document",
+      "prompt_preview": "Proceed"
+    }
+  ]
+}

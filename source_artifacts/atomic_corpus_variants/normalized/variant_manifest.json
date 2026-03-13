@@ -1,0 +1,483 @@
+{
+  "generated_at": "2026-03-12T20:14:23Z",
+  "source_root": "/Users/4jp/Downloads/New Folder With Items/atomic-corpus",
+  "destination_root": "/Users/4jp/Workspace/organvm-i-theoria/uaks/source_artifacts/atomic_corpus_variants",
+  "exports": [
+    {
+      "file": "ChatGPT-Atomic Knowledge Assembler.json",
+      "title": "Atomic Knowledge Assembler",
+      "message_count": 42,
+      "pair_count": 21,
+      "pair_records": [
+        {
+          "pair_number": 1,
+          "prompt_title": "Design theoretical specifications for brainstorm below",
+          "response_title": "Theoretical Specification",
+          "prompt_sha256": "fb8f7104d3d8c9bc953a5cde1db2d40a5d1c55afcf036700cad7192e28c8c31d",
+          "response_sha256": "225c74c0efcbfccdf8d41ec080ea20d737fcfe304d81a96e41b8ee752cc19847"
+        },
+        {
+          "pair_number": 2,
+          "prompt_title": "Provide the cost and benefits of all three of your suggestions and what you recommend.",
+          "response_title": "Recommendation across the three deliverables",
+          "prompt_sha256": "dfb842aae9685082bb55b938ec3c199a7d388066f1a1744da26729223385582b",
+          "response_sha256": "397bd826480ce83ca82a93f1d8dbc80feaee01b408f9c46faec3300ce5e4de3c"
+        },
+        {
+          "pair_number": 3,
+          "prompt_title": "draft a single v1 architecture spec that includes both TextAtom and CodeAtom as first-class types, plus a decision matrix for Graph + Vector + CAS + Raw Source Archive + GraphQL API;",
+          "response_title": "V1 Architecture Specification",
+          "prompt_sha256": "8b47a687e7ef4a33c7b7a2b84bd9ee9ea85fe2c876cc626d6335e45f06fab7d8",
+          "response_sha256": "b8a6d02613d93bffb8f35fd5816b696ef9beae33dbb7f4ce8754c821cdaf06b6"
+        },
+        {
+          "pair_number": 4,
+          "prompt_title": "Proceed",
+          "response_title": "Unified Atomic Knowledge Substrate v1",
+          "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+          "response_sha256": "146edcc68715f2076fdc72bdd4186efc10b438f3a55443882d0330e9ed8d6789"
+        },
+        {
+          "pair_number": 5,
+          "prompt_title": "I have two addendums from outside sources. What would be the best time to provide them to you?",
+          "response_title": "Now.",
+          "prompt_sha256": "6c3d897b53dcf384354958462bac3f86999b6c0d1af8982ca72e12183ca45706",
+          "response_sha256": "62c38a7076b3d240a633eeff582732c46647768b13f6d2af7112707cebde250c"
+        },
+        {
+          "pair_number": 6,
+          "prompt_title": "Addendum Memorandum",
+          "response_title": "Addendum Integration Review",
+          "prompt_sha256": "bbe96e1fc3e6a191ec839e5b80a04ef0ae554049a11843ab1a17ebd0695a5bf3",
+          "response_sha256": "ed3020b86d144c308e06e11837c9e4a149e26c01175caa92a23533a0d159f8e2"
+        },
+        {
+          "pair_number": 7,
+          "prompt_title": "Proceed w all",
+          "response_title": "1. Visual Architecture Diagram",
+          "prompt_sha256": "a345f02772b22867579bc452ed60d6c4b8bd7bd2cf14b871b7bdcdd562a8cbf0",
+          "response_sha256": "a2e0a820ab5e2933fb1a27a1bb49bb67225625364973c75ed833b40ad571a2d0"
+        },
+        {
+          "pair_number": 8,
+          "prompt_title": "Proceed",
+          "response_title": "Schema Pack v1",
+          "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+          "response_sha256": "f2b0c68ed4393c05576ace4ca282912740c1b929579f46654225fbeb248256ee"
+        },
+        {
+          "pair_number": 9,
+          "prompt_title": "Proceed all",
+          "response_title": "Text Refinery Specification v1",
+          "prompt_sha256": "fdd3a0990909d012eed70a1a19eab5698e7e146b1d0d6f3ece957395ef1c775b",
+          "response_sha256": "b80c90db11de89357ab4535e42efb0b0b3912537ed238d5af7e2cda9bae6c6f4"
+        },
+        {
+          "pair_number": 10,
+          "prompt_title": "Proceed",
+          "response_title": "Retrieval Scoring Specification v1",
+          "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+          "response_sha256": "da419a0cb374ffcb2a59b176a5427004b78224cb16db959e9edaf621fdb2b5ad"
+        },
+        {
+          "pair_number": 11,
+          "prompt_title": "Proceed",
+          "response_title": "Template Catalog v1",
+          "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+          "response_sha256": "4dd6feb02c2bf2e4f73ab00b35f18bae8aaeb3dacabbd84e00183d37c0445583"
+        },
+        {
+          "pair_number": 12,
+          "prompt_title": "Proceed",
+          "response_title": "Query Pattern Library v1",
+          "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+          "response_sha256": "78bced675e1e7cb352074ea9b8c2ffa4276885a1f976c5b1e63eadcd8101a25f"
+        },
+        {
+          "pair_number": 13,
+          "prompt_title": "Proceed; provide remaining steps until phase completion",
+          "response_title": "Remaining Steps to Phase Completion",
+          "prompt_sha256": "c17848b7efbe85589c83462228d0a8ff79bb355e23881bf46495a6f102adc77e",
+          "response_sha256": "1f5ecd290ff6b0f12f7c7d5624f506df7484d3e5ede58af8c24311ee82e94410"
+        },
+        {
+          "pair_number": 14,
+          "prompt_title": "Yes",
+          "response_title": "Operations Pack v1",
+          "prompt_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+          "response_sha256": "04a35651b6360bc693eaa277fe026e71f861a6795bfcc8a3659a3623bd143f77"
+        },
+        {
+          "pair_number": 15,
+          "prompt_title": "Proceed",
+          "response_title": "Evaluation Pack A v1",
+          "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+          "response_sha256": "209bb30fdc6a4acb967ddd1ebaabef7c45edecbdc0cc27a057c9970a7bb5ee9f"
+        },
+        {
+          "pair_number": 16,
+          "prompt_title": "Proceed; how many rounds until done?",
+          "response_title": "Status of the Phase",
+          "prompt_sha256": "26bfb860544192da38b79865ce5ebd2d0c4af9f3af630fb3eac6270e05d91cab",
+          "response_sha256": "ad6f42b2085977b4bef04287c6cca16115142ce55e3d61ff403140184c1a1c13"
+        },
+        {
+          "pair_number": 17,
+          "prompt_title": "Yes",
+          "response_title": "Truth Lifecycle Pack v1",
+          "prompt_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+          "response_sha256": "77ef8857b06afb0b04894b9efbd8f0e42dd22e7fadef398cdcb61c16b7a275c4"
+        },
+        {
+          "pair_number": 18,
+          "prompt_title": "Yes",
+          "response_title": "Integrity Pack v1",
+          "prompt_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+          "response_sha256": "c801ae346045a70dd01c014804417e692083d900e0b3521ad1e8f5f4563da997"
+        },
+        {
+          "pair_number": 19,
+          "prompt_title": "Yes",
+          "response_title": "Launch Pack v1",
+          "prompt_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+          "response_sha256": "f05dcd06d803f163391ad87aeb46db06bf9bf6ab1a0b301e5bc3059eddb6c6de"
+        },
+        {
+          "pair_number": 20,
+          "prompt_title": "Yes",
+          "response_title": "Image created",
+          "prompt_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+          "response_sha256": "b5fec557449bed8b8ca7eed35aeb68ef9af224ce94f71e46a8094e466ec21e10"
+        },
+        {
+          "pair_number": 21,
+          "prompt_title": "produce updates of final extremely useful artifacts",
+          "response_title": "Updated Final Artifacts",
+          "prompt_sha256": "e5a4cd64ac85222ec1764e0f559c1ef2b512b183667530e8e971a474640bb207",
+          "response_sha256": "34261eab8555e87dcf73e6d7aefa545db20d1c598d5694005d4d0311778ea05e"
+        }
+      ],
+      "unique_pairs": [
+        {
+          "pair_number": 8,
+          "prompt_title": "Proceed",
+          "response_title": "Schema Pack v1"
+        },
+        {
+          "pair_number": 9,
+          "prompt_title": "Proceed all",
+          "response_title": "Text Refinery Specification v1"
+        },
+        {
+          "pair_number": 10,
+          "prompt_title": "Proceed",
+          "response_title": "Retrieval Scoring Specification v1"
+        },
+        {
+          "pair_number": 11,
+          "prompt_title": "Proceed",
+          "response_title": "Template Catalog v1"
+        },
+        {
+          "pair_number": 12,
+          "prompt_title": "Proceed",
+          "response_title": "Query Pattern Library v1"
+        },
+        {
+          "pair_number": 13,
+          "prompt_title": "Proceed; provide remaining steps until phase completion",
+          "response_title": "Remaining Steps to Phase Completion"
+        },
+        {
+          "pair_number": 14,
+          "prompt_title": "Yes",
+          "response_title": "Operations Pack v1"
+        },
+        {
+          "pair_number": 15,
+          "prompt_title": "Proceed",
+          "response_title": "Evaluation Pack A v1"
+        },
+        {
+          "pair_number": 16,
+          "prompt_title": "Proceed; how many rounds until done?",
+          "response_title": "Status of the Phase"
+        },
+        {
+          "pair_number": 17,
+          "prompt_title": "Yes",
+          "response_title": "Truth Lifecycle Pack v1"
+        },
+        {
+          "pair_number": 18,
+          "prompt_title": "Yes",
+          "response_title": "Integrity Pack v1"
+        },
+        {
+          "pair_number": 19,
+          "prompt_title": "Yes",
+          "response_title": "Launch Pack v1"
+        },
+        {
+          "pair_number": 20,
+          "prompt_title": "Yes",
+          "response_title": "Image created"
+        },
+        {
+          "pair_number": 21,
+          "prompt_title": "produce updates of final extremely useful artifacts",
+          "response_title": "Updated Final Artifacts"
+        }
+      ]
+    },
+    {
+      "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+      "title": "Branch \u00b7 Atomic Knowledge Assembler",
+      "message_count": 20,
+      "pair_count": 10,
+      "pair_records": [
+        {
+          "pair_number": 1,
+          "prompt_title": "Design theoretical specifications for brainstorm below",
+          "response_title": "Theoretical Specification",
+          "prompt_sha256": "fb8f7104d3d8c9bc953a5cde1db2d40a5d1c55afcf036700cad7192e28c8c31d",
+          "response_sha256": "225c74c0efcbfccdf8d41ec080ea20d737fcfe304d81a96e41b8ee752cc19847"
+        },
+        {
+          "pair_number": 2,
+          "prompt_title": "Provide the cost and benefits of all three of your suggestions and what you recommend.",
+          "response_title": "Recommendation across the three deliverables",
+          "prompt_sha256": "dfb842aae9685082bb55b938ec3c199a7d388066f1a1744da26729223385582b",
+          "response_sha256": "397bd826480ce83ca82a93f1d8dbc80feaee01b408f9c46faec3300ce5e4de3c"
+        },
+        {
+          "pair_number": 3,
+          "prompt_title": "draft a single v1 architecture spec that includes both TextAtom and CodeAtom as first-class types, plus a decision matrix for Graph + Vector + CAS + Raw Source Archive + GraphQL API;",
+          "response_title": "V1 Architecture Specification",
+          "prompt_sha256": "8b47a687e7ef4a33c7b7a2b84bd9ee9ea85fe2c876cc626d6335e45f06fab7d8",
+          "response_sha256": "b8a6d02613d93bffb8f35fd5816b696ef9beae33dbb7f4ce8754c821cdaf06b6"
+        },
+        {
+          "pair_number": 4,
+          "prompt_title": "Proceed",
+          "response_title": "Unified Atomic Knowledge Substrate v1",
+          "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+          "response_sha256": "146edcc68715f2076fdc72bdd4186efc10b438f3a55443882d0330e9ed8d6789"
+        },
+        {
+          "pair_number": 5,
+          "prompt_title": "I have two addendums from outside sources. What would be the best time to provide them to you?",
+          "response_title": "Now.",
+          "prompt_sha256": "6c3d897b53dcf384354958462bac3f86999b6c0d1af8982ca72e12183ca45706",
+          "response_sha256": "62c38a7076b3d240a633eeff582732c46647768b13f6d2af7112707cebde250c"
+        },
+        {
+          "pair_number": 6,
+          "prompt_title": "Addendum Memorandum",
+          "response_title": "Addendum Integration Review",
+          "prompt_sha256": "bbe96e1fc3e6a191ec839e5b80a04ef0ae554049a11843ab1a17ebd0695a5bf3",
+          "response_sha256": "ed3020b86d144c308e06e11837c9e4a149e26c01175caa92a23533a0d159f8e2"
+        },
+        {
+          "pair_number": 7,
+          "prompt_title": "Proceed w all",
+          "response_title": "1. Visual Architecture Diagram",
+          "prompt_sha256": "a345f02772b22867579bc452ed60d6c4b8bd7bd2cf14b871b7bdcdd562a8cbf0",
+          "response_sha256": "a2e0a820ab5e2933fb1a27a1bb49bb67225625364973c75ed833b40ad571a2d0"
+        },
+        {
+          "pair_number": 8,
+          "prompt_title": "We finish this phase and move from specification into implementation, are features locked? Changes unwelcome, or it will be part of the process to evolve, right?",
+          "response_title": "Short answer: features are not locked. In a system like the one you are building, evolution is not just allowed\u2014it is an explicit design property of the architecture. The specification phase does not freeze behavior permanently; it establishes stable invariants while allowing controlled evolution around them.",
+          "prompt_sha256": "2f76331b6773e991fae2ada6ce9670ee6c369b19865afd70dcf13558e0423397",
+          "response_sha256": "c547a5f2a201db79a6acd846add15bd385851123a8ac9ac43935dad05251fa8f"
+        },
+        {
+          "pair_number": 9,
+          "prompt_title": "Have we designed the metadata and YML frontmatter unique ID info? And if so, how do we ensure that it is in sync with what the codebase will be that it is getting implemented into? Right, we're gonna process non-atomic writing and documents as the knowledge, but then there's a codebase that already kind of exists.",
+          "response_title": "Not fully.",
+          "prompt_sha256": "2251b8cfdf6b685b07b1d82c13fce6220c2ad5ce8a9372d3383e1de43103592b",
+          "response_sha256": "672d11d47a81dd5b746dbcdcea84835b68ec868dd273a1a3ace4e07a132b9d74"
+        },
+        {
+          "pair_number": 10,
+          "prompt_title": "Proceed",
+          "response_title": "Metadata and Identity Charter v1",
+          "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+          "response_sha256": "a6b4464f5880d1f799d78c910146d110825b3f76123596c8e4dfee11816e61f2"
+        }
+      ],
+      "unique_pairs": [
+        {
+          "pair_number": 8,
+          "prompt_title": "We finish this phase and move from specification into implementation, are features locked? Changes unwelcome, or it will be part of the process to evolve, right?",
+          "response_title": "Short answer: features are not locked. In a system like the one you are building, evolution is not just allowed\u2014it is an explicit design property of the architecture. The specification phase does not freeze behavior permanently; it establishes stable invariants while allowing controlled evolution around them."
+        },
+        {
+          "pair_number": 9,
+          "prompt_title": "Have we designed the metadata and YML frontmatter unique ID info? And if so, how do we ensure that it is in sync with what the codebase will be that it is getting implemented into? Right, we're gonna process non-atomic writing and documents as the knowledge, but then there's a codebase that already kind of exists.",
+          "response_title": "Not fully."
+        },
+        {
+          "pair_number": 10,
+          "prompt_title": "Proceed",
+          "response_title": "Metadata and Identity Charter v1"
+        }
+      ]
+    },
+    {
+      "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler.json",
+      "title": "Branch \u00b7 Atomic Knowledge Assembler",
+      "message_count": 10,
+      "pair_count": 5,
+      "pair_records": [
+        {
+          "pair_number": 1,
+          "prompt_title": "Design theoretical specifications for brainstorm below",
+          "response_title": "Theoretical Specification",
+          "prompt_sha256": "fb8f7104d3d8c9bc953a5cde1db2d40a5d1c55afcf036700cad7192e28c8c31d",
+          "response_sha256": "225c74c0efcbfccdf8d41ec080ea20d737fcfe304d81a96e41b8ee752cc19847"
+        },
+        {
+          "pair_number": 2,
+          "prompt_title": "Provide the cost and benefits of all three of your suggestions and what you recommend.",
+          "response_title": "Recommendation across the three deliverables",
+          "prompt_sha256": "dfb842aae9685082bb55b938ec3c199a7d388066f1a1744da26729223385582b",
+          "response_sha256": "397bd826480ce83ca82a93f1d8dbc80feaee01b408f9c46faec3300ce5e4de3c"
+        },
+        {
+          "pair_number": 3,
+          "prompt_title": "I've attempted to build this before and that version I am linking below. Tell me what you think and how we can improve.",
+          "response_title": "Assessment",
+          "prompt_sha256": "7aa7ee97e828ca2d857d9a939ced0eee5ef83abce1fac0e9ba1da3997c56adb8",
+          "response_sha256": "1365e68d4ad7741210d2ffe9df2eebc522abc18f4604d65b85df4172d03b3132"
+        },
+        {
+          "pair_number": 4,
+          "prompt_title": "Proceed; draft as draft as an addendum memo mapping with your suggestions don't duplicate any code from here instead will take ideas and expand so nothing gets jumbled",
+          "response_title": "Addendum Memorandum",
+          "prompt_sha256": "8f39477c8c7f780e0fca78b455ccdd9a0c26e607089f8e9336bb2d0007bbacd5",
+          "response_sha256": "99ee73764757d5606798c6c08127c81898b2717767e1a1e5ab67f87178c9d40f"
+        },
+        {
+          "pair_number": 5,
+          "prompt_title": "Simultaneously during the building and maintenance of this new version of the knowledge base, a parallel system elsewhere will be generating linguistic analysis. The goal would be to bring ideas and results into the new place. And is that, that's something we need to design for, what would that look like.",
+          "response_title": "Yes \u2014 design for it now",
+          "prompt_sha256": "470b817adae01e3c368d44bff5c32694e3f23078b3d5d2d3ad810ddc0230a416",
+          "response_sha256": "46cdb6ea8ebacd4808e32584a701bab340422c0cdedfb0db65a007ad0a514359"
+        }
+      ],
+      "unique_pairs": [
+        {
+          "pair_number": 3,
+          "prompt_title": "I've attempted to build this before and that version I am linking below. Tell me what you think and how we can improve.",
+          "response_title": "Assessment"
+        },
+        {
+          "pair_number": 4,
+          "prompt_title": "Proceed; draft as draft as an addendum memo mapping with your suggestions don't duplicate any code from here instead will take ideas and expand so nothing gets jumbled",
+          "response_title": "Addendum Memorandum"
+        },
+        {
+          "pair_number": 5,
+          "prompt_title": "Simultaneously during the building and maintenance of this new version of the knowledge base, a parallel system elsewhere will be generating linguistic analysis. The goal would be to bring ideas and results into the new place. And is that, that's something we need to design for, what would that look like.",
+          "response_title": "Yes \u2014 design for it now"
+        }
+      ]
+    }
+  ],
+  "shared_exact_pairs": [
+    {
+      "occurrences": [
+        {
+          "file": "ChatGPT-Atomic Knowledge Assembler.json",
+          "pair_number": 1
+        },
+        {
+          "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+          "pair_number": 1
+        },
+        {
+          "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler.json",
+          "pair_number": 1
+        }
+      ]
+    },
+    {
+      "occurrences": [
+        {
+          "file": "ChatGPT-Atomic Knowledge Assembler.json",
+          "pair_number": 2
+        },
+        {
+          "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+          "pair_number": 2
+        },
+        {
+          "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler.json",
+          "pair_number": 2
+        }
+      ]
+    },
+    {
+      "occurrences": [
+        {
+          "file": "ChatGPT-Atomic Knowledge Assembler.json",
+          "pair_number": 3
+        },
+        {
+          "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+          "pair_number": 3
+        }
+      ]
+    },
+    {
+      "occurrences": [
+        {
+          "file": "ChatGPT-Atomic Knowledge Assembler.json",
+          "pair_number": 4
+        },
+        {
+          "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+          "pair_number": 4
+        }
+      ]
+    },
+    {
+      "occurrences": [
+        {
+          "file": "ChatGPT-Atomic Knowledge Assembler.json",
+          "pair_number": 5
+        },
+        {
+          "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+          "pair_number": 5
+        }
+      ]
+    },
+    {
+      "occurrences": [
+        {
+          "file": "ChatGPT-Atomic Knowledge Assembler.json",
+          "pair_number": 6
+        },
+        {
+          "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+          "pair_number": 6
+        }
+      ]
+    },
+    {
+      "occurrences": [
+        {
+          "file": "ChatGPT-Atomic Knowledge Assembler.json",
+          "pair_number": 7
+        },
+        {
+          "file": "ChatGPT-Branch \u00b7 Atomic Knowledge Assembler (1).json",
+          "pair_number": 7
+        }
+      ]
+    }
+  ]
+}

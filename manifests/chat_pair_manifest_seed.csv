@@ -1,0 +1,22 @@
+pair_id,user_title,assistant_title
+CHATPAIR-001,Theoretical Specification Request,Atomic Knowledge Assembler Specification
+CHATPAIR-002,Cost Benefit and Code-Lane Integration Request,Recommendation and Integration Strategy
+CHATPAIR-003,Single v1 Architecture Spec Request,Unified v1 Architecture and Artifact Inventory
+CHATPAIR-004,Proceed to Document-Grade Spec,Document-Grade Architecture Specification
+CHATPAIR-005,When to Provide Addenda,Addenda Timing Guidance
+CHATPAIR-006,Addendum Submission,Addendum Integration Review
+CHATPAIR-007,Proceed with All Addendum Follow-Ons,Diagram Ontology GraphQL and Integration Spec
+CHATPAIR-008,Proceed to Schema Pack,Schema Pack v1
+CHATPAIR-009,Proceed All to Refinery and Operations Specs,Refinery Retrieval Assembly and Inventory Set
+CHATPAIR-010,Proceed to Retrieval Spec,Retrieval Scoring and Control Specs
+CHATPAIR-011,Proceed to Templates and Report Formats,Template Provenance Trace Impact Resolver Set
+CHATPAIR-012,Proceed to Query and Workflow Specs,Query Access Portal Intake Review Set
+CHATPAIR-013,Remaining Steps Until Phase Completion,Phase Completion Roadmap
+CHATPAIR-014,Proceed to Operations Pack,Operations Pack v1
+CHATPAIR-015,Proceed to Evaluation Pack A,Evaluation Pack A v1
+CHATPAIR-016,Proceed and Ask Remaining Rounds,Evaluation Pack B and Round Count
+CHATPAIR-017,Proceed to Truth Lifecycle Pack,Truth Lifecycle Pack v1
+CHATPAIR-018,Proceed to Integrity Pack,Integrity Pack v1
+CHATPAIR-019,Proceed to Launch Pack,Launch Pack v1 and Phase Completion
+CHATPAIR-020,Generate Visual Architecture Diagram,Image Diagram Generation
+CHATPAIR-021,Repository Generator and Final Artifact Request,Repository Generator Manifest Matrix and Handoff Prompts

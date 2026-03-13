@@ -1,0 +1,13 @@
+artifact_id,path,status
+ART-0001,docs/02_architecture/uaks_v1_architecture_spec.md,drafted_in_chat
+ART-0002,docs/02_architecture/uaks_v1_ontology_charter.md,drafted_in_chat
+ART-0003,docs/03_schemas/uaks_v1_schema_pack.md,drafted_in_chat
+ART-0004,docs/04_refinery/uaks_v1_text_refinery_spec.md,drafted_in_chat
+ART-0005,docs/04_refinery/uaks_v1_code_refinery_spec.md,drafted_in_chat
+ART-0006,docs/05_retrieval_assembly/uaks_v1_retrieval_scoring_spec.md,drafted_in_chat
+ART-0007,docs/05_retrieval_assembly/uaks_v1_assembly_engine_spec.md,drafted_in_chat
+ART-0008,docs/06_interface_portal/uaks_v1_resolver_contract_spec.md,drafted_in_chat
+ART-0009,docs/07_operations/uaks_v1_change_management_sop.md,drafted_in_chat
+ART-0010,docs/08_evaluation/uaks_v1_benchmark_corpus_definition.md,drafted_in_chat
+ART-0011,docs/09_integrity/uaks_v1_hashing_standard.md,drafted_in_chat
+ART-0012,docs/10_launch/uaks_v1_launch_pack.md,drafted_in_chat

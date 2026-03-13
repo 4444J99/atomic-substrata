@@ -1,0 +1,8 @@
+{
+  "atomId": "atom_analysis_example_001",
+  "atomType": "ANALYSIS",
+  "atomClass": "ANALYSIS",
+  "validationState": "IMPORTED",
+  "finding": "Example derivative analytical atom preserved separately from source evidence and primary atoms.",
+  "tier": "derivative_analytical_domain"
+}

@@ -1,0 +1,762 @@
+{
+  "generated_at": "2026-03-12T20:32:06Z",
+  "objective": "Define the exact Markdown corpus to feed software distillation from the UAKS transcript reconstruction.",
+  "counts": {
+    "canonical_mainline_specs": 58,
+    "branch_supplemental_specs": 3,
+    "non_normative_context": 12,
+    "excluded_placeholders": 32,
+    "total_included_markdown": 73
+  },
+  "canonical_mainline_specs": [
+    {
+      "artifact_id": "uaks_v1_architecture_spec_20260311",
+      "title": "Document-Grade Architecture Specification Package",
+      "path": "docs/02_architecture/uaks_v1_architecture_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_external_analysis_integration_spec_20260311",
+      "title": "Federated Analytical Producer Contract",
+      "path": "docs/02_architecture/uaks_v1_external_analysis_integration_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_ontology_charter_20260311",
+      "title": "2. Ontology Charter v1",
+      "path": "docs/02_architecture/uaks_v1_ontology_charter_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "docs::02_architecture::uaks_v1_visual_architecture.md",
+      "title": "UAKS v1 Visual Architecture",
+      "path": "docs/02_architecture/uaks_v1_visual_architecture.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_graph_relation_catalog_20260311",
+      "title": "Graph Relation Catalog v1",
+      "path": "docs/03_schemas/uaks_v1_graph_relation_catalog_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "docs::03_schemas::uaks_v1_graphql_schema_draft.md",
+      "title": "UAKS v1 GraphQL Schema Draft",
+      "path": "docs/03_schemas/uaks_v1_graphql_schema_draft.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_schema_pack_20260311",
+      "title": "Schema Pack v1",
+      "path": "docs/03_schemas/uaks_v1_schema_pack_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_ast_parsing_strategy_20260311",
+      "title": "AST Parsing Strategy v1",
+      "path": "docs/04_refinery/uaks_v1_ast_parsing_strategy_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_code_refinery_spec_20260311",
+      "title": "Code Refinery Specification v1",
+      "path": "docs/04_refinery/uaks_v1_code_refinery_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_text_refinery_spec_20260311",
+      "title": "Text Refinery Specification v1",
+      "path": "docs/04_refinery/uaks_v1_text_refinery_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_assembly_engine_spec_20260311",
+      "title": "Assembly Engine Specification v1",
+      "path": "docs/05_retrieval_assembly/uaks_v1_assembly_engine_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_impact_analysis_report_format_20260311",
+      "title": "Impact Analysis Report Format v1",
+      "path": "docs/05_retrieval_assembly/uaks_v1_impact_analysis_report_format_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_provenance_rendering_rules_20260311",
+      "title": "Provenance Rendering Rules v1",
+      "path": "docs/05_retrieval_assembly/uaks_v1_provenance_rendering_rules_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_retrieval_scoring_spec_20260311",
+      "title": "Retrieval Scoring Specification v1",
+      "path": "docs/05_retrieval_assembly/uaks_v1_retrieval_scoring_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_template_catalog_20260311",
+      "title": "Template Catalog v1",
+      "path": "docs/05_retrieval_assembly/uaks_v1_template_catalog_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_traceability_report_format_20260311",
+      "title": "Traceability Report Format v1",
+      "path": "docs/05_retrieval_assembly/uaks_v1_traceability_report_format_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_auth_access_model_20260311",
+      "title": "Auth and Access Model v1",
+      "path": "docs/06_interface_portal/uaks_v1_auth_access_model_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_portal_projection_data_model_20260311",
+      "title": "Portal Projection Data Model v1",
+      "path": "docs/06_interface_portal/uaks_v1_portal_projection_data_model_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_portal_projection_spec_20260311",
+      "title": "Portal Projection Specification v1",
+      "path": "docs/06_interface_portal/uaks_v1_portal_projection_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_query_pattern_library_20260311",
+      "title": "Query Pattern Library v1",
+      "path": "docs/06_interface_portal/uaks_v1_query_pattern_library_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_resolver_contract_spec_20260311",
+      "title": "Resolver Contract Specification v1",
+      "path": "docs/06_interface_portal/uaks_v1_resolver_contract_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_change_management_sop_20260311",
+      "title": "1. Change Management SOP v1",
+      "path": "docs/07_operations/uaks_v1_change_management_sop_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_incident_response_sop_20260311",
+      "title": "2. Incident Response SOP v1",
+      "path": "docs/07_operations/uaks_v1_incident_response_sop_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_observability_dashboard_spec_20260311",
+      "title": "4. Observability Dashboard Spec v1",
+      "path": "docs/07_operations/uaks_v1_observability_dashboard_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_operations_pack_20260311",
+      "title": "Operations Pack v1",
+      "path": "docs/07_operations/uaks_v1_operations_pack_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_pilot_intake_sop_20260311",
+      "title": "Pilot Intake SOP v1",
+      "path": "docs/07_operations/uaks_v1_pilot_intake_sop_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_release_gate_procedure_20260311",
+      "title": "5. Release Gate Procedure v1",
+      "path": "docs/07_operations/uaks_v1_release_gate_procedure_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_review_workflow_sop_20260311",
+      "title": "Review Workflow SOP v1",
+      "path": "docs/07_operations/uaks_v1_review_workflow_sop_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_runbook_set_20260311",
+      "title": "3. Runbook Set v1",
+      "path": "docs/07_operations/uaks_v1_runbook_set_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_assembly_eval_harness_spec_20260311",
+      "title": "2 Assembly Evaluation Harness Specification",
+      "path": "docs/08_evaluation/uaks_v1_assembly_eval_harness_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_benchmark_corpus_definition_20260311",
+      "title": "1. Benchmark Corpus Definition v1",
+      "path": "docs/08_evaluation/uaks_v1_benchmark_corpus_definition_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_drift_detection_report_spec_20260311",
+      "title": "4 Drift Detection Report Specification",
+      "path": "docs/08_evaluation/uaks_v1_drift_detection_report_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_evaluation_pack_A_20260311",
+      "title": "Evaluation Pack A v1",
+      "path": "docs/08_evaluation/uaks_v1_evaluation_pack_A_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_evaluation_pack_B_20260311",
+      "title": "Evaluation Pack B v1",
+      "path": "docs/08_evaluation/uaks_v1_evaluation_pack_B_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_gold_atom_set_spec_20260311",
+      "title": "2. Gold-Standard Atom Set Specification v1",
+      "path": "docs/08_evaluation/uaks_v1_gold_atom_set_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_query_eval_dataset_20260311",
+      "title": "3. Evaluation Query Dataset v1",
+      "path": "docs/08_evaluation/uaks_v1_query_eval_dataset_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_retrieval_eval_harness_spec_20260311",
+      "title": "1 Retrieval Evaluation Harness Specification",
+      "path": "docs/08_evaluation/uaks_v1_retrieval_eval_harness_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_trace_benchmark_spec_20260311",
+      "title": "4. Trace Benchmark Specification v1",
+      "path": "docs/08_evaluation/uaks_v1_trace_benchmark_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_trace_coverage_report_spec_20260311",
+      "title": "3 Traceability Coverage Report Specification",
+      "path": "docs/08_evaluation/uaks_v1_trace_coverage_report_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_atomicity_test_suite_20260311",
+      "title": "3 Atomicity Test Suite v1",
+      "path": "docs/09_integrity/uaks_v1_atomicity_test_suite_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_canonicalization_spec_20260311",
+      "title": "2 Canonicalization Specification v1",
+      "path": "docs/09_integrity/uaks_v1_canonicalization_spec_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_contradiction_policy_20260311",
+      "title": "2 Contradiction Handling Policy v1",
+      "path": "docs/09_integrity/uaks_v1_contradiction_policy_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_dedup_merge_policy_20260311",
+      "title": "Deduplication and Merge Policy v1",
+      "path": "docs/09_integrity/uaks_v1_dedup_merge_policy_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_deduplication_protocol_20260311",
+      "title": "4 Deduplication Protocol v1",
+      "path": "docs/09_integrity/uaks_v1_deduplication_protocol_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_hashing_standard_20260311",
+      "title": "1 Hashing Standard v1",
+      "path": "docs/09_integrity/uaks_v1_hashing_standard_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_integrity_pack_20260311",
+      "title": "Integrity Pack v1",
+      "path": "docs/09_integrity/uaks_v1_integrity_pack_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_integrity_verification_procedure_20260311",
+      "title": "5 Integrity Verification Procedure",
+      "path": "docs/09_integrity/uaks_v1_integrity_verification_procedure_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_provenance_policy_20260311",
+      "title": "3 Provenance Policy v1",
+      "path": "docs/09_integrity/uaks_v1_provenance_policy_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_supersession_policy_20260311",
+      "title": "1 Supersession Policy v1",
+      "path": "docs/09_integrity/uaks_v1_supersession_policy_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_truth_lifecycle_pack_20260311",
+      "title": "Truth Lifecycle Pack v1",
+      "path": "docs/09_integrity/uaks_v1_truth_lifecycle_pack_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_validation_trust_policy_20260311",
+      "title": "Validation and Trust Policy v1",
+      "path": "docs/09_integrity/uaks_v1_validation_trust_policy_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_capacity_model_20260311",
+      "title": "1 Capacity Model v1",
+      "path": "docs/10_launch/uaks_v1_capacity_model_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_launch_pack_20260311",
+      "title": "Launch Pack v1",
+      "path": "docs/10_launch/uaks_v1_launch_pack_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_launch_readiness_assessment_20260311",
+      "title": "5 Launch Readiness Assessment",
+      "path": "docs/10_launch/uaks_v1_launch_readiness_assessment_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_launch_readiness_scorecard_20260311",
+      "title": "Launch Readiness Scorecard v1",
+      "path": "docs/10_launch/uaks_v1_launch_readiness_scorecard_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_operational_scaling_model_20260311",
+      "title": "3 Operational Scaling Model",
+      "path": "docs/10_launch/uaks_v1_operational_scaling_model_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_release_checklist_20260311",
+      "title": "Release Checklist v1",
+      "path": "docs/10_launch/uaks_v1_release_checklist_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    },
+    {
+      "artifact_id": "uaks_v1_storage_model_20260311",
+      "title": "2 Storage Model v1",
+      "path": "docs/10_launch/uaks_v1_storage_model_20260311.md",
+      "category": "canonical_mainline_spec",
+      "rationale": "implementation-relevant mainline UAKS artifact from the authoritative 21-pair reconstruction"
+    }
+  ],
+  "branch_supplemental_specs": [
+    {
+      "artifact_id": "branch_addendum_memorandum_generation_2_migration",
+      "title": "Addendum Memorandum",
+      "path": "docs/13_branch_excavations/addendum_memorandum_generation_2_migration.md",
+      "category": "branch_supplemental_spec",
+      "rationale": "captures the Generation-1 to Generation-2 migration model"
+    },
+    {
+      "artifact_id": "branch_parallel_linguistic_analysis_integration_design",
+      "title": "Parallel Linguistic Analysis Integration Design",
+      "path": "docs/13_branch_excavations/parallel_linguistic_analysis_integration_design.md",
+      "category": "branch_supplemental_spec",
+      "rationale": "defines the external analytical lane and translation membrane"
+    },
+    {
+      "artifact_id": "uaks_v1_metadata_identity_charter_20260311",
+      "title": "Metadata and Identity Charter v1",
+      "path": "docs/13_branch_excavations/uaks_v1_metadata_identity_charter_20260311.md",
+      "category": "branch_supplemental_spec",
+      "rationale": "supplies the metadata, identity, and synchronization model absent from the mainline thread"
+    }
+  ],
+  "non_normative_context": [
+    {
+      "artifact_id": "docs::00_meta::addenda_timing_guidance.md",
+      "title": "Addenda Timing Guidance",
+      "path": "docs/00_meta/addenda_timing_guidance.md",
+      "category": "non_normative_context",
+      "rationale": "contextual or process guidance; useful for engineering orientation but not normative substrate law"
+    },
+    {
+      "artifact_id": "docs::00_meta::addendum_integration_review.md",
+      "title": "Addendum Integration Review",
+      "path": "docs/00_meta/addendum_integration_review.md",
+      "category": "non_normative_context",
+      "rationale": "contextual or process guidance; useful for engineering orientation but not normative substrate law"
+    },
+    {
+      "artifact_id": "docs::00_meta::atomic_knowledge_assembler_theoretical_specification.md",
+      "title": "Theoretical Specification Atomic Knowledge Assembler System",
+      "path": "docs/00_meta/atomic_knowledge_assembler_theoretical_specification.md",
+      "category": "non_normative_context",
+      "rationale": "contextual or process guidance; useful for engineering orientation but not normative substrate law"
+    },
+    {
+      "artifact_id": "docs::00_meta::recommendation_across_the_three_deliverables.md",
+      "title": "Recommendation across the three deliverables",
+      "path": "docs/00_meta/recommendation_across_the_three_deliverables.md",
+      "category": "non_normative_context",
+      "rationale": "contextual or process guidance; useful for engineering orientation but not normative substrate law"
+    },
+    {
+      "artifact_id": "docs::00_meta::uaks_v1_architecture_specification_v1.md",
+      "title": "V1 Architecture Specification Unified Atomic Knowledge and Technical Corpus System",
+      "path": "docs/00_meta/uaks_v1_architecture_specification_v1.md",
+      "category": "non_normative_context",
+      "rationale": "contextual or process guidance; useful for engineering orientation but not normative substrate law"
+    },
+    {
+      "artifact_id": "docs::02_architecture::uaks_v1_visual_architecture_image_generation_note.md",
+      "title": "UAKS v1 Visual Architecture Image Generation Note",
+      "path": "docs/02_architecture/uaks_v1_visual_architecture_image_generation_note.md",
+      "category": "non_normative_context",
+      "rationale": "image generation note only; not a normative implementation spec"
+    },
+    {
+      "artifact_id": "docs::11_implementation::phase_status_and_remaining_rounds.md",
+      "title": "Status of the Phase",
+      "path": "docs/11_implementation/phase_status_and_remaining_rounds.md",
+      "category": "non_normative_context",
+      "rationale": "contextual or process guidance; useful for engineering orientation but not normative substrate law"
+    },
+    {
+      "artifact_id": "docs::11_implementation::remaining_steps_to_phase_completion.md",
+      "title": "Remaining Steps to Phase Completion",
+      "path": "docs/11_implementation/remaining_steps_to_phase_completion.md",
+      "category": "non_normative_context",
+      "rationale": "contextual or process guidance; useful for engineering orientation but not normative substrate law"
+    },
+    {
+      "artifact_id": "docs::11_implementation::updated_final_artifacts.md",
+      "title": "Updated Final Artifacts",
+      "path": "docs/11_implementation/updated_final_artifacts.md",
+      "category": "non_normative_context",
+      "rationale": "contextual or process guidance; useful for engineering orientation but not normative substrate law"
+    },
+    {
+      "artifact_id": "branch_assessment_existing_generation_1_repository",
+      "title": "Assessment of Existing Generation-1 Repository",
+      "path": "docs/13_branch_excavations/assessment_of_existing_generation_1_repository.md",
+      "category": "non_normative_context",
+      "rationale": "branch-only advisory or evaluative guidance retained for implementation context"
+    },
+    {
+      "artifact_id": "branch_feature_lock_and_evolution_guidance",
+      "title": "Feature Lock and Evolution Guidance",
+      "path": "docs/13_branch_excavations/feature_lock_and_evolution_guidance.md",
+      "category": "non_normative_context",
+      "rationale": "branch-only advisory or evaluative guidance retained for implementation context"
+    },
+    {
+      "artifact_id": "branch_frontmatter_and_codebase_sync_guidance",
+      "title": "Frontmatter and Codebase Sync Guidance",
+      "path": "docs/13_branch_excavations/frontmatter_and_codebase_sync_guidance.md",
+      "category": "non_normative_context",
+      "rationale": "branch-only advisory or evaluative guidance retained for implementation context"
+    }
+  ],
+  "excluded_placeholders": [
+    {
+      "artifact_id": "PLACEHOLDER-003",
+      "title": "Naming Convention Standard",
+      "path": "docs/01_governance/naming_convention_standard.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-002",
+      "title": "Scope and Exclusions Charter",
+      "path": "docs/01_governance/scope_and_exclusions_charter.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-004",
+      "title": "Security and Rights Policy",
+      "path": "docs/01_governance/security_and_rights_policy.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-001",
+      "title": "Vision and Thesis Document",
+      "path": "docs/01_governance/vision_and_thesis.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-009",
+      "title": "Failure Mode and Resilience Analysis",
+      "path": "docs/02_architecture/failure_mode_and_resilience_analysis.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-005",
+      "title": "Logical Data Model",
+      "path": "docs/02_architecture/logical_data_model.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-010",
+      "title": "Nonfunctional Requirements Specification",
+      "path": "docs/02_architecture/nonfunctional_requirements_spec.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-006",
+      "title": "Physical Storage Architecture",
+      "path": "docs/02_architecture/physical_storage_architecture.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-007",
+      "title": "Service Decomposition Specification",
+      "path": "docs/02_architecture/service_decomposition_spec.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-008",
+      "title": "Trust Boundary Map",
+      "path": "docs/02_architecture/trust_boundary_map.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-032",
+      "title": "UAKS v1 Visual Architecture Image Asset",
+      "path": "docs/02_architecture/uaks_v1_visual_architecture_image_asset.placeholder.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-011",
+      "title": "CAS Object Model",
+      "path": "docs/03_schemas/cas_object_model.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-012",
+      "title": "Hash Canonicalization Examples",
+      "path": "docs/03_schemas/hash_canonicalization_examples.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-013",
+      "title": "AST Parsing Strategy",
+      "path": "docs/04_refinery/ast_parsing_strategy.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-015",
+      "title": "QA Rubric",
+      "path": "docs/04_refinery/qa_rubric.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-014",
+      "title": "Re-Refinement Protocol",
+      "path": "docs/04_refinery/re_refinement_protocol.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-016",
+      "title": "Recipe Persistence Specification",
+      "path": "docs/05_retrieval_assembly/recipe_persistence_spec.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-017",
+      "title": "Consumer Interface Contract",
+      "path": "docs/06_interface_portal/consumer_interface_contract.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-018",
+      "title": "Change Management Test Matrix",
+      "path": "docs/07_operations/change_management_test_matrix.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-019",
+      "title": "Incident Playbooks",
+      "path": "docs/07_operations/incident_playbooks.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-020",
+      "title": "Cost and Capacity Model",
+      "path": "docs/08_evaluation/cost_and_capacity_model.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-021",
+      "title": "Launch Readiness Scorecard",
+      "path": "docs/08_evaluation/launch_readiness_scorecard.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-025",
+      "title": "CI/CD Plan",
+      "path": "docs/11_implementation/ci_cd_plan.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-026",
+      "title": "Environment Bootstrap",
+      "path": "docs/11_implementation/environment_bootstrap.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-023",
+      "title": "Implementation Plan",
+      "path": "docs/11_implementation/implementation_plan.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-024",
+      "title": "Milestone Roadmap",
+      "path": "docs/11_implementation/milestone_roadmap.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-022",
+      "title": "Repository Generator Design",
+      "path": "docs/11_implementation/repository_generator_design.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-027",
+      "title": "Canonical Ontology Examples",
+      "path": "docs/12_seed_content/canonical_ontology_examples.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-031",
+      "title": "Initial Recipe Pack",
+      "path": "docs/12_seed_content/initial_recipe_pack.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-030",
+      "title": "Rule-to-Code Bridge Examples",
+      "path": "docs/12_seed_content/rule_to_code_bridge_examples.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-029",
+      "title": "Sample CodeAtom Corpus",
+      "path": "docs/12_seed_content/sample_codeatom_corpus.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    },
+    {
+      "artifact_id": "PLACEHOLDER-028",
+      "title": "Sample TextAtom Corpus",
+      "path": "docs/12_seed_content/sample_textatom_corpus.md",
+      "category": "excluded_placeholder",
+      "rationale": "named in transcript but not fully drafted"
+    }
+  ],
+  "ingestion_rule": {
+    "include_categories": [
+      "canonical_mainline_spec",
+      "branch_supplemental_spec"
+    ],
+    "advisory_context_category": "non_normative_context",
+    "exclude_category": "excluded_placeholder"
+  }
+}

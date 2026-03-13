@@ -1,0 +1,7 @@
+{
+  "sourceId": "src_example_conversation_001",
+  "sourceType": "conversation_export",
+  "origin": "chat_export",
+  "rawArchiveRef": "source_artifacts/raw/ChatGPT-Atomic Knowledge Assembler.json",
+  "note": "Source evidence example preserving the raw-artifact tier."
+}

@@ -1,0 +1,8 @@
+{
+  "atomId": "atom_text_example_001",
+  "atomType": "TEXT",
+  "atomClass": "FACT",
+  "validationState": "DISTILLED",
+  "canonicalStatement": "Text and code belong to one ontology but require different refinery disciplines.",
+  "tier": "primary_atomic_domain"
+}

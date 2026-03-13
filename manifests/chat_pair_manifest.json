@@ -1,0 +1,39 @@
+{
+  "repo": "atomic-substrata",
+  "generated_at": "2026-03-12T20:08:31.414500Z",
+  "source_file": "MASTER_transcript.json",
+  "total_messages": 44,
+  "total_pairs": 38,
+  "message_hashes": [
+    {
+      "index": 0,
+      "role": "Prompt",
+      "sha256": "fb8f7104d3d8c9bc953a5cde1db2d40a5d1c55afcf036700cad7192e28c8c31d",
+      "length": 10300
+    },
+    {
+      "index": 1,
+      "role": "Response",
+      "sha256": "225c74c0efcbfccdf8d41ec080ea20d737fcfe304d81a96e41b8ee752cc19847",
+      "length": 21594
+    },
+    {
+      "index": 2,
+      "role": "Prompt",
+      "sha256": "dfb842aae9685082bb55b938ec3c199a7d388066f1a1744da26729223385582b",
+      "length": 8456
+    },
+    {
+      "index": 3,
+      "role": "Response",
+      "sha256": "397bd826480ce83ca82a93f1d8dbc80feaee01b408f9c46faec3300ce5e4de3c",
+      "length": 11418
+    },
+    {
+      "index": 4,
+      "role": "Prompt",
+      "sha256": "8b47a687e7ef4a33c7b7a2b84bd9ee9ea85fe2c876cc626d6335e45f06fab7d8",
+      "length": 252
+    }
+  ]
+}

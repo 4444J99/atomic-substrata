@@ -1,0 +1,177 @@
+{
+  "generated_at": "2026-03-12T19:28:12Z",
+  "title": "Atomic Knowledge Assembler",
+  "thread_id": "69b0f941-acd8-832e-9524-aeae7cb77f30",
+  "source_export": "/Users/4jp/Workspace/meta-organvm/materia-collider/genesis/ChatGPT-Atomic Knowledge Assembler.json",
+  "pair_count": 21,
+  "pairs": [
+    {
+      "pair_id": "CHATPAIR-001",
+      "pair_number": 1,
+      "prompt_title": "Theoretical Specification Request",
+      "response_title": "Atomic Knowledge Assembler Specification",
+      "prompt_sha256": "fb8f7104d3d8c9bc953a5cde1db2d40a5d1c55afcf036700cad7192e28c8c31d",
+      "response_sha256": "225c74c0efcbfccdf8d41ec080ea20d737fcfe304d81a96e41b8ee752cc19847"
+    },
+    {
+      "pair_id": "CHATPAIR-002",
+      "pair_number": 2,
+      "prompt_title": "Cost Benefit and Code-Lane Integration Request",
+      "response_title": "Recommendation and Integration Strategy",
+      "prompt_sha256": "dfb842aae9685082bb55b938ec3c199a7d388066f1a1744da26729223385582b",
+      "response_sha256": "397bd826480ce83ca82a93f1d8dbc80feaee01b408f9c46faec3300ce5e4de3c"
+    },
+    {
+      "pair_id": "CHATPAIR-003",
+      "pair_number": 3,
+      "prompt_title": "Single v1 Architecture Spec Request",
+      "response_title": "Unified v1 Architecture and Artifact Inventory",
+      "prompt_sha256": "8b47a687e7ef4a33c7b7a2b84bd9ee9ea85fe2c876cc626d6335e45f06fab7d8",
+      "response_sha256": "b8a6d02613d93bffb8f35fd5816b696ef9beae33dbb7f4ce8754c821cdaf06b6"
+    },
+    {
+      "pair_id": "CHATPAIR-004",
+      "pair_number": 4,
+      "prompt_title": "Proceed to Document-Grade Spec",
+      "response_title": "Document-Grade Architecture Specification",
+      "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+      "response_sha256": "146edcc68715f2076fdc72bdd4186efc10b438f3a55443882d0330e9ed8d6789"
+    },
+    {
+      "pair_id": "CHATPAIR-005",
+      "pair_number": 5,
+      "prompt_title": "When to Provide Addenda",
+      "response_title": "Addenda Timing Guidance",
+      "prompt_sha256": "6c3d897b53dcf384354958462bac3f86999b6c0d1af8982ca72e12183ca45706",
+      "response_sha256": "62c38a7076b3d240a633eeff582732c46647768b13f6d2af7112707cebde250c"
+    },
+    {
+      "pair_id": "CHATPAIR-006",
+      "pair_number": 6,
+      "prompt_title": "Addendum Submission",
+      "response_title": "Addendum Integration Review",
+      "prompt_sha256": "bbe96e1fc3e6a191ec839e5b80a04ef0ae554049a11843ab1a17ebd0695a5bf3",
+      "response_sha256": "ed3020b86d144c308e06e11837c9e4a149e26c01175caa92a23533a0d159f8e2"
+    },
+    {
+      "pair_id": "CHATPAIR-007",
+      "pair_number": 7,
+      "prompt_title": "Proceed with All Addendum Follow-Ons",
+      "response_title": "Diagram Ontology GraphQL and Integration Spec",
+      "prompt_sha256": "a345f02772b22867579bc452ed60d6c4b8bd7bd2cf14b871b7bdcdd562a8cbf0",
+      "response_sha256": "a2e0a820ab5e2933fb1a27a1bb49bb67225625364973c75ed833b40ad571a2d0"
+    },
+    {
+      "pair_id": "CHATPAIR-008",
+      "pair_number": 8,
+      "prompt_title": "Proceed to Schema Pack",
+      "response_title": "Schema Pack v1",
+      "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+      "response_sha256": "f2b0c68ed4393c05576ace4ca282912740c1b929579f46654225fbeb248256ee"
+    },
+    {
+      "pair_id": "CHATPAIR-009",
+      "pair_number": 9,
+      "prompt_title": "Proceed All to Refinery and Operations Specs",
+      "response_title": "Refinery Retrieval Assembly and Inventory Set",
+      "prompt_sha256": "fdd3a0990909d012eed70a1a19eab5698e7e146b1d0d6f3ece957395ef1c775b",
+      "response_sha256": "b80c90db11de89357ab4535e42efb0b0b3912537ed238d5af7e2cda9bae6c6f4"
+    },
+    {
+      "pair_id": "CHATPAIR-010",
+      "pair_number": 10,
+      "prompt_title": "Proceed to Retrieval Spec",
+      "response_title": "Retrieval Scoring and Control Specs",
+      "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+      "response_sha256": "da419a0cb374ffcb2a59b176a5427004b78224cb16db959e9edaf621fdb2b5ad"
+    },
+    {
+      "pair_id": "CHATPAIR-011",
+      "pair_number": 11,
+      "prompt_title": "Proceed to Templates and Report Formats",
+      "response_title": "Template Provenance Trace Impact Resolver Set",
+      "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+      "response_sha256": "4dd6feb02c2bf2e4f73ab00b35f18bae8aaeb3dacabbd84e00183d37c0445583"
+    },
+    {
+      "pair_id": "CHATPAIR-012",
+      "pair_number": 12,
+      "prompt_title": "Proceed to Query and Workflow Specs",
+      "response_title": "Query Access Portal Intake Review Set",
+      "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+      "response_sha256": "78bced675e1e7cb352074ea9b8c2ffa4276885a1f976c5b1e63eadcd8101a25f"
+    },
+    {
+      "pair_id": "CHATPAIR-013",
+      "pair_number": 13,
+      "prompt_title": "Remaining Steps Until Phase Completion",
+      "response_title": "Phase Completion Roadmap",
+      "prompt_sha256": "c17848b7efbe85589c83462228d0a8ff79bb355e23881bf46495a6f102adc77e",
+      "response_sha256": "1f5ecd290ff6b0f12f7c7d5624f506df7484d3e5ede58af8c24311ee82e94410"
+    },
+    {
+      "pair_id": "CHATPAIR-014",
+      "pair_number": 14,
+      "prompt_title": "Proceed to Operations Pack",
+      "response_title": "Operations Pack v1",
+      "prompt_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+      "response_sha256": "04a35651b6360bc693eaa277fe026e71f861a6795bfcc8a3659a3623bd143f77"
+    },
+    {
+      "pair_id": "CHATPAIR-015",
+      "pair_number": 15,
+      "prompt_title": "Proceed to Evaluation Pack A",
+      "response_title": "Evaluation Pack A v1",
+      "prompt_sha256": "f01847dfc94126426b4849004762a12557de2332ae0ca1b4602210b341f0281b",
+      "response_sha256": "209bb30fdc6a4acb967ddd1ebaabef7c45edecbdc0cc27a057c9970a7bb5ee9f"
+    },
+    {
+      "pair_id": "CHATPAIR-016",
+      "pair_number": 16,
+      "prompt_title": "Proceed and Ask Remaining Rounds",
+      "response_title": "Evaluation Pack B and Round Count",
+      "prompt_sha256": "26bfb860544192da38b79865ce5ebd2d0c4af9f3af630fb3eac6270e05d91cab",
+      "response_sha256": "ad6f42b2085977b4bef04287c6cca16115142ce55e3d61ff403140184c1a1c13"
+    },
+    {
+      "pair_id": "CHATPAIR-017",
+      "pair_number": 17,
+      "prompt_title": "Proceed to Truth Lifecycle Pack",
+      "response_title": "Truth Lifecycle Pack v1",
+      "prompt_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+      "response_sha256": "77ef8857b06afb0b04894b9efbd8f0e42dd22e7fadef398cdcb61c16b7a275c4"
+    },
+    {
+      "pair_id": "CHATPAIR-018",
+      "pair_number": 18,
+      "prompt_title": "Proceed to Integrity Pack",
+      "response_title": "Integrity Pack v1",
+      "prompt_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+      "response_sha256": "c801ae346045a70dd01c014804417e692083d900e0b3521ad1e8f5f4563da997"
+    },
+    {
+      "pair_id": "CHATPAIR-019",
+      "pair_number": 19,
+      "prompt_title": "Proceed to Launch Pack",
+      "response_title": "Launch Pack v1 and Phase Completion",
+      "prompt_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+      "response_sha256": "f05dcd06d803f163391ad87aeb46db06bf9bf6ab1a0b301e5bc3059eddb6c6de"
+    },
+    {
+      "pair_id": "CHATPAIR-020",
+      "pair_number": 20,
+      "prompt_title": "Generate Visual Architecture Diagram",
+      "response_title": "Image Diagram Generation",
+      "prompt_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+      "response_sha256": "b5fec557449bed8b8ca7eed35aeb68ef9af224ce94f71e46a8094e466ec21e10"
+    },
+    {
+      "pair_id": "CHATPAIR-021",
+      "pair_number": 21,
+      "prompt_title": "Repository Generator and Final Artifact Request",
+      "response_title": "Repository Generator Manifest Matrix and Handoff Prompts",
+      "prompt_sha256": "e5a4cd64ac85222ec1764e0f559c1ef2b512b183667530e8e971a474640bb207",
+      "response_sha256": "34261eab8555e87dcf73e6d7aefa545db20d1c598d5694005d4d0311778ea05e"
+    }
+  ]
+}

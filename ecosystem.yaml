@@ -1,0 +1,18 @@
+schema_version: '1.0'
+repo: uaks
+organ: I
+display_name: "UAKS — Unified Atomic Knowledge Substrate from architecture conversation artifacts"
+
+delivery:
+- platform: python_library
+  status: in_progress
+  priority: medium
+  notes: "Manifests, documentation, and implementation scaffold"
+  next_action: "Complete manifest generation from conversation exports"
+
+content:
+- platform: docs_site
+  status: not_started
+  priority: medium
+  notes: "Atomic knowledge model reference and substrate architecture"
+  next_action: "Document UAKS manifest format and reconstruction process"

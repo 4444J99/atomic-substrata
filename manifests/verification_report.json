@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "generated_at": "2026-03-12T19:28:12Z",
+  "message_count": 42,
+  "pair_count": 21,
+  "drafted_document_count": 56,
+  "non_id_document_count": 11,
+  "placeholder_count": 32,
+  "missing_document_ids": [],
+  "title_integrity_issues": [],
+  "content_boundary_issues": []
+}

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+export PROJECT_SLUG="${PROJECT_SLUG}"
+export REPO_ROOT="${REPO_ROOT}"
+export AUTHOR_NAME="${AUTHOR_NAME}"
+export DATE_STAMP="${DATE_STAMP}"
+export DEFAULT_BRANCH="${DEFAULT_BRANCH}"
+export PYTHON_BIN="${PYTHON_BIN}"
