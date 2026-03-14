@@ -1,0 +1,40 @@
+name: UAKS Pipeline CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests pytest
+    
+    - name: Test pipeline status
+      run: |
+        python scripts/pipeline.py status
+    
+    - name: Test atom add
+      run: |
+        python scripts/pipeline.py add-atom text "Test atom content"
+        python scripts/pipeline.py list-atoms
+    
+    - name: Test deduplication
+      run: |
+        python scripts/pipeline.py deduplicate
+    
+    - name: Test integrity
+      run: |
+        python scripts/pipeline.py integrity
