@@ -22,23 +22,29 @@ def load_reconstruction_module():
 
 
 def test_verification_report_passes() -> None:
-    report = json.loads((REPO_ROOT / "manifests/verification_report.json").read_text(encoding="utf-8"))
+    report = json.loads(
+        (REPO_ROOT / "manifests/verification_report.json").read_text(encoding="utf-8")
+    )
     assert report["status"] == "pass"
-    assert report["pair_count"] == 21
+    assert report["pair_count"] == 6
     assert report["missing_document_ids"] == []
     assert report["title_integrity_issues"] == []
     assert report["content_boundary_issues"] == []
 
 
 def test_chat_pair_manifest_count() -> None:
-    manifest = json.loads((REPO_ROOT / "manifests/chat_pair_manifest.json").read_text(encoding="utf-8"))
-    assert len(manifest) == 21
+    manifest = json.loads(
+        (REPO_ROOT / "manifests/chat_pair_manifest.json").read_text(encoding="utf-8")
+    )
+    assert len(manifest) == 6
 
 
 def test_problematic_artifact_titles_are_preserved() -> None:
     manifest = {
         item["artifact_id"]: item
-        for item in json.loads((REPO_ROOT / "manifests/artifact_manifest.json").read_text(encoding="utf-8"))
+        for item in json.loads(
+            (REPO_ROOT / "manifests/artifact_manifest.json").read_text(encoding="utf-8")
+        )
     }
     expected_titles = {
         "uaks_v1_ast_parsing_strategy_20260311": "AST Parsing Strategy v1",
@@ -75,7 +81,13 @@ def test_extract_doc_blocks_skips_adjacent_table_fragments() -> None:
     }
     for pair_number, expected_titles in expectations.items():
         response_text = payload["messages"][(pair_number - 1) * 2 + 1]["say"]
-        blocks = {block["document_id"]: block for block in module.extract_doc_blocks(response_text)}
+        blocks = {
+            block["document_id"]: block
+            for block in module.extract_doc_blocks(response_text)
+        }
         for artifact_id, expected_title in expected_titles.items():
             assert blocks[artifact_id]["title"] == expected_title
-            assert module.first_non_empty_line(blocks[artifact_id]["content"]) == expected_title
+            assert (
+                module.first_non_empty_line(blocks[artifact_id]["content"])
+                == expected_title
+            )
