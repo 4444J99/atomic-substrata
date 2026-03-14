@@ -13,6 +13,10 @@ A technical knowledge storage and retrieval system based on atomic knowledge pri
 | Pipeline Script | ✅ Operational |
 | Academic API Suite | ✅ Built |
 | Roadmap | ✅ Defined |
+| Assembly Engine | ✅ Working |
+| Graph Storage | ✅ Implemented |
+| REST API | ✅ Available |
+| Test Suite | ✅ 17 tests passing |
 
 ## Quick Start
 
@@ -32,8 +36,21 @@ python scripts/pipeline.py deduplicate
 # Verify integrity
 python scripts/pipeline.py integrity
 
-# Assemble atoms for a query
+# Assemble atoms for a query (uses vector similarity)
 python scripts/pipeline.py assemble "your query here"
+
+# Or use the assembly engine directly
+python scripts/assembly.py "knowledge atoms"
+
+# Graph storage
+python scripts/graph_storage.py import
+python scripts/graph_storage.py stats
+
+# REST API (requires Flask)
+python scripts/api_server.py
+
+# Run tests
+python -m pytest tests/unit/test_scripts.py -v
 
 # Find academic papers
 python scripts/pipeline.py find-paper "knowledge graph"
@@ -58,6 +75,9 @@ Source → Intake → Refinery → Deduplication → Storage → Assembly → Ou
 ### Key Files
 
 - `scripts/pipeline.py` - UAKS pipeline CLI
+- `scripts/assembly.py` - Vector similarity search & assembly
+- `scripts/graph_storage.py` - Graph-based storage
+- `scripts/api_server.py` - REST API server
 - `scripts/academic/` - Academic paper API clients
 - `docs/` - 100+ artifacts across 13 categories
 - `source_artifacts/` - Original transcript sources
@@ -79,7 +99,8 @@ See [there-and-back-again.md](there-and-back-again.md) for the complete path to 
 - **Artifacts**: 100+
 - **Categories**: 13
 - **Placeholders Filled**: 32
-- **Scripts**: 5+
+- **Scripts**: 9+
+- **Tests**: 17 passing
 
 ---
 
