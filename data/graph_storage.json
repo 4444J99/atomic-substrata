@@ -1,0 +1,42 @@
+{
+  "nodes": {
+    "atom_031f8d7d1b06fb19": {
+      "id": "atom_031f8d7d1b06fb19",
+      "type": "text",
+      "hash": "031f8d7d1b06fb19",
+      "content": "UAKS - Unified Atomic Knowledge Substrate",
+      "source": "",
+      "created_at": "2026-03-13T22:29:51.865434",
+      "metadata": {}
+    },
+    "atom_dd41ecdeb1113b0c": {
+      "id": "atom_dd41ecdeb1113b0c",
+      "type": "text",
+      "hash": "dd41ecdeb1113b0c",
+      "content": "TextAtom - smallest interpretable text unit",
+      "source": "",
+      "created_at": "2026-03-13T22:29:51.936883",
+      "metadata": {}
+    },
+    "atom_03c564f322d0cdda": {
+      "id": "atom_03c564f322d0cdda",
+      "type": "text",
+      "hash": "03c564f322d0cdda",
+      "content": "CodeAtom - smallest interpretable code unit",
+      "source": "",
+      "created_at": "2026-03-13T22:29:52.007996",
+      "metadata": {}
+    },
+    "atom_3553c9b1a9bc1169": {
+      "id": "atom_3553c9b1a9bc1169",
+      "type": "text",
+      "hash": "3553c9b1a9bc1169",
+      "content": "Pipeline: Source \u2192 Intake \u2192 Refinery \u2192 Dedup \u2192 Storage \u2192 Assembly \u2192 Output",
+      "source": "",
+      "created_at": "2026-03-13T22:29:52.079866",
+      "metadata": {}
+    }
+  },
+  "edges": {},
+  "last_updated": "2026-03-13T22:32:42.701113"
+}
