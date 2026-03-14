@@ -23,7 +23,7 @@ try:
 except ImportError:
     HAS_SENTENCE_TRANSFORMERS = False
 
-from vector_retrieval import VectorRetrieval, Document
+from uaks.vector_retrieval import VectorRetrieval, Document
 
 
 @dataclass

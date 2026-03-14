@@ -16,7 +16,7 @@ A technical knowledge storage and retrieval system based on atomic knowledge pri
 | Assembly Engine | ✅ Working |
 | Graph Storage | ✅ Implemented |
 | REST API | ✅ Available |
-| Test Suite | ✅ 17 tests passing |
+| Test Suite | ✅ 80+ tests passing |
 
 ## Quick Start
 
@@ -100,7 +100,7 @@ See [there-and-back-again.md](there-and-back-again.md) for the complete path to 
 - **Categories**: 13
 - **Placeholders Filled**: 32
 - **Scripts**: 9+
-- **Tests**: 17 passing
+- **Tests**: 80+ passing
 
 ---
 
