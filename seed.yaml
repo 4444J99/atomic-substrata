@@ -6,6 +6,14 @@ metadata:
   tier: standard
   promotion_status: LOCAL
   description: Unified Atomic Knowledge Substrate repository reconstructed from architecture conversation artifacts.
+implements:
+  - concept: AMMOI
+    zettel_source: "post-flood/archive_original/.zettel-index.yaml#AMMOI"
+    aspect: "Macro-to-micro atomization primitive — hierarchical decomposition of knowledge structures"
+  - concept: temporal_metric_fabric
+    zettel_source: "post-flood/archive_original/.zettel-index.yaml#temporal_metric_fabric"
+    aspect: "State snapshots and observation-based metric recording per knowledge atom"
+
 produces:
   - uaks.manifests
   - uaks.documentation
