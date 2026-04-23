@@ -35,8 +35,92 @@
       "source": "",
       "created_at": "2026-03-13T22:29:52.079866",
       "metadata": {}
+    },
+    "atom_91c24b74ae4c589a": {
+      "id": "atom_91c24b74ae4c589a",
+      "type": "text",
+      "hash": "91c24b74ae4c589a",
+      "content": "Create ~/Workspace/a-organvm/ instance",
+      "source": "/Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md",
+      "created_at": "2026-04-23T09:15:39",
+      "metadata": {
+        "atom_role": "legacy_irf_atom",
+        "legacy_id": "IRF-SYS-031",
+        "legacy_source": "INST-INDEX-RERUM-FACIENDARUM.md",
+        "legacy_source_line": 151,
+        "priority": "P0",
+        "owner": "Human+Agent",
+        "source_session": "S42\u2192S43",
+        "completion_status": "DONE S43",
+        "issue_projection_ref": "data/projections/irf_sys_031_issue_projection.json",
+        "issue_projection_status": "projected_locally_pending_remote_sync",
+        "existing_issue_number": null,
+        "issue_linkage_status": "unresolved_remote_lookup",
+        "permanent_atom_id": "atom_6b27849c69809bb3"
+      }
+    },
+    "atom_fc905b0cc76c7b5b": {
+      "id": "atom_fc905b0cc76c7b5b",
+      "type": "source_file",
+      "hash": "fc905b0cc76c7b5b",
+      "content": "IRF source file entry for IRF-SYS-031 in INST-INDEX-RERUM-FACIENDARUM.md",
+      "source": "/Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md",
+      "created_at": "2026-04-23T09:18:00",
+      "metadata": {
+        "atom_role": "irf_source_file_atom",
+        "legacy_id": "IRF-SYS-031",
+        "source_path": "/Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md",
+        "line_start": 151,
+        "line_end": 151,
+        "entry_excerpt": "Create `~/Workspace/a-organvm/` instance"
+      }
+    },
+    "atom_6b27849c69809bb3": {
+      "id": "atom_6b27849c69809bb3",
+      "type": "text",
+      "hash": "6b27849c69809bb3",
+      "content": "IRF-SYS-031: Create ~/Workspace/a-organvm/ instance\n\n## IRF Work Item Specification\n\n**IRF ID:** IRF-SYS-031\n**Priority:** P0 - NOW: human-gated or zero-cost unblocking\n**Target Organ:** SYSTEM (cross-organ)\n**Phase:** alpha-Foundation (Energy 0-20) - constitutional, structural, schema-level\n**Energy:** 20\n\n### Telos\nCreate the first public a-organvm instance so the organism has a living root where gate contracts, signal flows, and future GitHub-issued work can converge.\n\n### Specification\nCreate the public `a-organvm/a-organvm` instance repository at `~/Workspace/a-organvm/`. Seed it with the organism genome (`SEED.md`), instantiate the gate-contract surface, and establish the initial issue-bearing work substrate that replaced the older lifecycle container model. The completed legacy state records: public repository created, `SEED.md` populated, 36 gate contracts present, and 73 GitHub issues created.\n\n### Done Criteria\n- [x] `a-organvm/a-organvm` exists as a public repository.\n- [x] `SEED.md` exists in the instance root and is populated.\n- [x] 36 gate contracts exist in the instance.\n- [x] 73 GitHub issues were created for the instance work surface.\n- [x] The design shift from lifecycle containers to gate contracts is recorded.\n\n### Owner\nHuman+Agent\n\n### Source\nS42->S43\n\n### Blocker\nNone\n\n### Contact Surfaces\n**Formations touched**\n- `/Users/4jp/Workspace/a-organvm`\n- `a-organvm/a-organvm`\n- `meta-organvm/organvm-corpvs-testamentvm`\n\n**Files modified**\n- `SEED.md`\n- gate contract YAML files in the instance root\n\n**Constitutional obligations fulfilled**\n- Create the public instance root required for future IRF-to-GitHub institutional reform.\n- Provide the substrate where gate contracts replace lifecycle containers.\n\n**IRF items related**\n- `IRF-SYS-032`\n- `IRF-SYS-033`\n- `IRF-SYS-034`\n- `IRF-SYS-036`\n\n**External systems touched**\n- GitHub org `a-organvm`\n- GitHub Issues / Projects for `a-organvm`\n\n**Signal edges affected**\n- Establish the public instance surface that later issue, gate, and distillation workflows route through.\n\n### Growth Trajectory\nThis item creates the gravitational center that later distillation, decomposition, and git-architecture work depends on. It is a prerequisite for `IRF-SYS-032` and the instance-level governance surface that later board-issuance workflows rely on.\n\n### Completion Propagation (10-Index Checklist)\n- [x] **IRF** - move to completed\n- [x] **GitHub Issues** - close with commit SHA\n- [ ] **Omega Scorecard** - advances criterion #___\n- [ ] **Inquiry Log** - updates commission ___\n- [ ] **Testament Chain** - significant system event\n- [ ] **Concordance** - introduces/retires governance IDs\n- [ ] **Registry** - changes repo state\n- [x] **Seed contracts** - changes capabilities/edges\n- [ ] **CLAUDE.md** - changes modules/routes/architecture\n- [ ] **Companion indices** - new locations/names/artifacts\n\n**Submitted by:** Codex GPT-5\n**Session ID:** S42->S43 (legacy), projected 2026-04-23\n**Timestamp:** 2026-04-23T09:22:00-04:00",
+      "source": "data/projections/irf_sys_031_issue_projection.json",
+      "created_at": "2026-04-23T09:30:00",
+      "metadata": {
+        "atom_role": "permanent_issue_atom",
+        "legacy_id": "IRF-SYS-031",
+        "issue_projection_ref": "data/projections/irf_sys_031_issue_projection.json",
+        "issue_title": "IRF-SYS-031: Create ~/Workspace/a-organvm/ instance",
+        "issue_body_hash": "ba54da5119278eca",
+        "existing_issue_number": null,
+        "issue_linkage_status": "unresolved_remote_lookup",
+        "source_file_atom_id": "atom_fc905b0cc76c7b5b",
+        "legacy_atom_id": "atom_91c24b74ae4c589a"
+      }
     }
   },
-  "edges": {},
-  "last_updated": "2026-03-13T22:32:42.701113"
+  "edges": {
+    "edge_legacy_irf_sys_031_derives_from_source": {
+      "id": "edge_legacy_irf_sys_031_derives_from_source",
+      "source_id": "atom_91c24b74ae4c589a",
+      "target_id": "atom_fc905b0cc76c7b5b",
+      "relationship": "derives_from",
+      "weight": 1.0,
+      "created_at": "2026-04-23T09:18:00",
+      "metadata": {
+        "legacy_id": "IRF-SYS-031",
+        "lineage": "legacy_irf_entry",
+        "reason": "Preserve derivation from the authoritative IRF source file entry."
+      }
+    },
+    "edge_permanent_irf_sys_031_references_legacy": {
+      "id": "edge_permanent_irf_sys_031_references_legacy",
+      "source_id": "atom_6b27849c69809bb3",
+      "target_id": "atom_91c24b74ae4c589a",
+      "relationship": "references",
+      "weight": 1.0,
+      "created_at": "2026-04-23T09:30:00",
+      "metadata": {
+        "legacy_id": "IRF-SYS-031",
+        "reason": "Permanent issue-derived atom preserves the richer issue payload."
+      }
+    }
+  },
+  "last_updated": "2026-04-23T09:30:00"
 }
