@@ -5,6 +5,7 @@ Unit tests for advanced_nlp and semantic_embeddings modules.
 
 import sys
 import os
+from unittest.mock import Mock
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "src"))
 
@@ -314,6 +315,237 @@ class TestAssemblyModule:
 
         engine = AssemblyEngine()
         assert engine is not None
+
+
+class TestAdvancedNLPCoverage:
+    """Focused coverage tests for the large advanced_nlp module."""
+
+    def test_extract_entities_uses_pattern_and_avoids_duplicate_proper_noun(self):
+        """Pattern-backed entities should be preferred over redundant proper noun matches."""
+        from uaks.advanced_nlp import AdvancedNLP
+
+        nlp = AdvancedNLP()
+        nlp.entity_patterns = {"CUSTOM": r"Acme Corp", "DATE": r"\d{4}-\d{2}-\d{2}"}
+
+        entities = nlp.extract_entities("Acme Corp released version 1.2.0 on 2024-01-01.")
+
+        assert len(entities) == 2
+        assert entities[0].label == "CUSTOM"
+        assert entities[0].text == "Acme Corp"
+        assert entities[1].label == "DATE"
+        assert entities[1].text == "2024-01-01"
+        assert not any(entity.label == "PROPER_NOUN" for entity in entities)
+
+    def test_extract_entities_adds_proper_noun_when_not_captured(self):
+        """Pure proper nouns should be extracted when patterns do not match."""
+        from uaks.advanced_nlp import AdvancedNLP
+
+        nlp = AdvancedNLP()
+        entities = nlp.extract_entities("Acme Corp announced a breakthrough.")
+
+        assert len(entities) == 1
+        assert entities[0].label == "PROPER_NOUN"
+        assert entities[0].text == "Acme Corp"
+
+    def test_simple_sentiment_threshold_paths(self):
+        """Direct sentiment fallback should hit positive, negative, and neutral decisions."""
+        from uaks.advanced_nlp import AdvancedNLP
+
+        nlp = AdvancedNLP()
+        nlp.sentiment_analyzer = None
+
+        positive = nlp.analyze_sentiment("I love this excellent and useful tool")
+        negative = nlp.analyze_sentiment("This is bad and a terrible problem")
+        neutral = nlp.analyze_sentiment("This has no clear emotional signal")
+
+        assert positive.sentiment == "positive"
+        assert positive.polarity > 0.05
+        assert negative.sentiment == "negative"
+        assert negative.polarity < -0.05
+        assert neutral.sentiment == "neutral"
+        assert neutral.polarity == 0.0
+
+    def test_analyze_sentiment_uses_nltk_analyzer_when_present(self, monkeypatch):
+        """The NLTK analyzer branch should be used when available."""
+        from uaks.advanced_nlp import AdvancedNLP
+
+        nlp = AdvancedNLP()
+        fake_analyzer = Mock()
+        fake_analyzer.polarity_scores.return_value = {"compound": -0.77}
+        nlp.sentiment_analyzer = fake_analyzer
+
+        result = nlp.analyze_sentiment("any text")
+
+        assert result.sentiment == "negative"
+        fake_analyzer.polarity_scores.assert_called_once_with("any text")
+
+    def test_extract_keywords_handles_stopwords_and_top_k(self):
+        """Keyword extraction should filter stopwords and return frequency scores."""
+        from uaks.advanced_nlp import AdvancedNLP
+
+        nlp = AdvancedNLP()
+        keywords = nlp.extract_keywords("the the test and and data data data", top_k=1)
+
+        assert len(keywords) == 1
+        assert keywords[0].keyword == "data"
+        assert keywords[0].score == 0.75
+
+    def test_classify_text_sorts_and_limits_top_three(self):
+        """Classification should prioritize highest-confidence labels and return at most three."""
+        from uaks.advanced_nlp import AdvancedNLP
+
+        nlp = AdvancedNLP()
+        text = (
+            "API function and method are standard. "
+            "Research study analysis supports hypotheses. "
+            "Market customer revenue grows in strong conditions. "
+            "Students learn concept quickly."
+        )
+
+        result = nlp.classify_text(text)
+
+        assert len(result) == 3
+        assert result[0].category == "technical"
+        assert result[1].category == "scientific"
+        assert result[2].category == "business"
+        assert result[0].confidence == pytest.approx(0.6)
+        assert result[1].confidence == pytest.approx(0.6)
+        assert result[2].confidence == pytest.approx(0.6)
+
+    def test_summarize_short_text_and_ranked_truncation(self, monkeypatch):
+        """Summarization should preserve short text and rank longer text by keywords."""
+        from uaks.advanced_nlp import AdvancedNLP, KeywordResult
+
+        nlp = AdvancedNLP()
+
+        assert nlp.summarize("Only one sentence.") == "Only one sentence."
+
+        monkeypatch.setattr(
+            nlp,
+            "extract_keywords",
+            lambda _text, top_k=10: [KeywordResult("alpha", 1.0), KeywordResult("beta", 0.5)],
+        )
+        long_text = (
+            "Alpha introduces the main concept. "
+            "Beta supports the supporting concept. "
+            "Gamma appears but is less useful. "
+            "Delta appears in final note."
+        )
+
+        summary = nlp.summarize(long_text, max_sentences=2)
+        assert summary == "Alpha introduces the main concept. Beta supports the supporting concept."
+
+    def test_analyze_composes_all_sections(self, monkeypatch):
+        """analyze() should combine results from all component extractors."""
+        from uaks.advanced_nlp import (
+            AdvancedNLP,
+            Entity,
+            KeywordResult,
+            ClassificationResult,
+            SentimentResult,
+        )
+
+        nlp = AdvancedNLP()
+        monkeypatch.setattr(
+            nlp,
+            "extract_entities",
+            lambda _text: [Entity(text="Acme", label="ORG", start=0, end=4)],
+        )
+        monkeypatch.setattr(
+            nlp,
+            "analyze_sentiment",
+            lambda _text: SentimentResult(polarity=0.2, sentiment="positive", confidence=0.2),
+        )
+        monkeypatch.setattr(
+            nlp,
+            "extract_keywords",
+            lambda _text: [KeywordResult(keyword="acme", score=0.9)],
+        )
+        monkeypatch.setattr(
+            nlp,
+            "classify_text",
+            lambda _text: [ClassificationResult(category="business", confidence=0.8)],
+        )
+        monkeypatch.setattr(nlp, "summarize", lambda _text: "summary")
+
+        result = nlp.analyze("anything")
+
+        assert result["entities"] == [{"text": "Acme", "label": "ORG"}]
+        assert result["sentiment"] == {"polarity": 0.2, "sentiment": "positive"}
+        assert result["keywords"] == [{"keyword": "acme", "score": 0.9}]
+        assert result["classification"] == [{"category": "business", "confidence": 0.8}]
+        assert result["summary"] == "summary"
+
+    def test_main_cli_branches(self, monkeypatch, capsys):
+        """CLI entry points should execute command branches and print expected output."""
+        from uaks import advanced_nlp
+        from uaks.advanced_nlp import AdvancedNLP, Entity, SentimentResult, KeywordResult, ClassificationResult
+
+        class _FakeNLP:
+            def extract_entities(self, text):
+                return [Entity("Acme", "ORG", 0, 4)]
+
+            def analyze_sentiment(self, text):
+                return SentimentResult(polarity=0.5, sentiment="positive", confidence=0.5)
+
+            def extract_keywords(self, text):
+                return [KeywordResult("alpha", 1.0), KeywordResult("beta", 0.5)]
+
+            def classify_text(self, text):
+                return [ClassificationResult(category="business", confidence=0.9)]
+
+            def summarize(self, text):
+                return "summary"
+
+            def analyze(self, text):
+                return {
+                    "entities": [{"text": "Acme", "label": "ORG"}],
+                    "sentiment": {"polarity": 0.5, "sentiment": "positive"},
+                    "keywords": [{"keyword": "alpha", "score": 1.0}],
+                    "classification": [{"category": "business", "confidence": 0.9}],
+                    "summary": "summary",
+                }
+
+        monkeypatch.setattr(advanced_nlp, "AdvancedNLP", _FakeNLP)
+
+        monkeypatch.setattr(sys, "argv", ["advanced_nlp.py"])
+        advanced_nlp.main()
+        usage = capsys.readouterr().out
+        assert "Usage: advanced_nlp.py <command>" in usage
+
+        monkeypatch.setattr(sys, "argv", ["advanced_nlp.py", "entities", "Acme"])
+        advanced_nlp.main()
+        entities_output = capsys.readouterr().out
+        assert "ORG: Acme" in entities_output
+
+        monkeypatch.setattr(sys, "argv", ["advanced_nlp.py", "analyze", "Acme", "Corp"])
+        advanced_nlp.main()
+        analyze_output = capsys.readouterr().out
+        assert "entities" in analyze_output
+
+        monkeypatch.setattr(
+            sys,
+            "argv",
+            ["advanced_nlp.py", "sentiment", "Acme", "makes", "you", "smile"],
+        )
+        advanced_nlp.main()
+        sentiment_output = capsys.readouterr().out
+        assert "Sentiment: positive" in sentiment_output
+
+        monkeypatch.setattr(sys, "argv", ["advanced_nlp.py", "keywords", "Acme", "Corp"])
+        advanced_nlp.main()
+        keywords_output = capsys.readouterr().out
+        assert "alpha: 1.000" in keywords_output
+
+        monkeypatch.setattr(sys, "argv", ["advanced_nlp.py", "classify", "Acme", "Corp"])
+        advanced_nlp.main()
+        classify_output = capsys.readouterr().out
+        assert "business: 0.900" in classify_output
+
+        monkeypatch.setattr(sys, "argv", ["advanced_nlp.py", "summarize", "Acme", "Corp"])
+        advanced_nlp.main()
+        summarize_output = capsys.readouterr().out
+        assert summarize_output.strip() == "summary"
 
 
 if __name__ == "__main__":
