@@ -13,9 +13,7 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-SOURCE_EXPORT = Path(
-    "/Users/4jp/Workspace/meta-organvm/materia-collider/genesis/ChatGPT-Atomic Knowledge Assembler.json"
-)
+SOURCE_EXPORT = REPO_ROOT / "source_artifacts/raw/ChatGPT-Atomic Knowledge Assembler.json"
 
 DOC_PATH_BY_ID = {
     "uaks_v1_architecture_spec_20260311": "docs/02_architecture/uaks_v1_architecture_spec_20260311.md",
