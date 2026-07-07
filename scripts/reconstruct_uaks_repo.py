@@ -13,7 +13,16 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-SOURCE_EXPORT = REPO_ROOT / "source_artifacts/raw/ChatGPT-Atomic Knowledge Assembler.json"
+
+_local_raw = REPO_ROOT / "source_artifacts/raw/ChatGPT-Atomic Knowledge Assembler.json"
+_original_source = Path("/Users/4jp/Workspace/meta-organvm/materia-collider/genesis/ChatGPT-Atomic Knowledge Assembler.json")
+
+if _local_raw.exists():
+    SOURCE_EXPORT = _local_raw
+elif _original_source.exists():
+    SOURCE_EXPORT = _original_source
+else:
+    SOURCE_EXPORT = _local_raw
 
 DOC_PATH_BY_ID = {
     "uaks_v1_architecture_spec_20260311": "docs/02_architecture/uaks_v1_architecture_spec_20260311.md",
@@ -512,7 +521,8 @@ def collect_drafted_docs(pairs: list[PairRecord]) -> list[dict[str, Any]]:
 def write_pair_archive(payload: dict[str, Any], pairs: list[PairRecord], generated_at: str) -> None:
     raw_target = REPO_ROOT / "source_artifacts/raw/ChatGPT-Atomic Knowledge Assembler.json"
     ensure_dir(raw_target.parent)
-    shutil.copy2(SOURCE_EXPORT, raw_target)
+    if SOURCE_EXPORT.resolve() != raw_target.resolve():
+        shutil.copy2(SOURCE_EXPORT, raw_target)
 
     normalized_json = {
         "generated_at": generated_at,
