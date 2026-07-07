@@ -47,10 +47,19 @@
         "size": 17,
         "ingested": "2026-07-04T02:38:08.056996",
         "status": "raw"
+      },
+      {
+        "id": "atom_5a22f6aa5e95ea79",
+        "type": "text",
+        "content": "Test atom content",
+        "hash": "5a22f6aa5e95ea79",
+        "size": 17,
+        "ingested": "2026-07-06T22:36:21.952112",
+        "status": "raw"
       }
     ],
     "code": [],
-    "total": 5
+    "total": 6
   },
   "pipeline": {
     "source": {
@@ -67,11 +76,11 @@
     },
     "dedup": {
       "status": "completed",
-      "processed": 5
+      "processed": 6
     },
     "storage": {
       "status": "completed",
-      "processed": 5
+      "processed": 6
     },
     "assembly": {
       "status": "completed",
@@ -83,14 +92,14 @@
     }
   },
   "dedup": {
-    "duplicates_found": 0,
-    "last_run": "2026-07-04T02:38:09.002642"
+    "duplicates_found": 1,
+    "last_run": "2026-07-06T22:36:22.194239"
   },
   "integrity": {
     "verified": true,
-    "last_check": "2026-07-04T02:38:09.570206",
-    "verified_count": 5,
+    "last_check": "2026-07-06T22:36:22.371452",
+    "verified_count": 6,
     "failed_count": 0
   },
-  "last_updated": "2026-07-04T02:38:09.570231"
+  "last_updated": "2026-07-06T22:36:22.371472"
 }
