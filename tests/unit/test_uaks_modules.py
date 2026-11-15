@@ -217,6 +217,38 @@ class TestContentAddressableStorage:
 
         assert result["verified"]
 
+    def test_store_missing_object_restored(self, temp_storage):
+        """Test restoring missing object file when storing identical content."""
+        cas = ContentAddressableStorage(temp_storage)
+
+        address = cas.store("canonical payload", {"source": "synthetic"})
+        object_path = temp_storage / "objects" / address
+        object_path.unlink()
+
+        returned = cas.store("canonical payload", {"source": "synthetic retry"})
+
+        assert returned == address
+        assert cas.exists(address) is True
+        assert object_path.exists() is True
+        assert cas.retrieve(address) == "canonical payload"
+        assert cas.index[address].reference_count == 2
+        assert cas.verify_integrity()["verified"] is True
+
+    def test_store_corrupted_object_fails_closed(self, temp_storage):
+        """Test failing closed when object file is corrupted upon duplicate store."""
+        cas = ContentAddressableStorage(temp_storage)
+
+        address = cas.store("canonical payload", {"source": "synthetic"})
+        object_path = temp_storage / "objects" / address
+        object_path.write_text("corrupted content")
+
+        with pytest.raises(ValueError, match="CAS object corruption detected"):
+            cas.store("canonical payload", {"source": "synthetic retry"})
+
+        # Ref count must remain 1 and corrupted content must be preserved
+        assert cas.index[address].reference_count == 1
+        assert object_path.read_text() == "corrupted content"
+
 
 class TestVectorRetrieval:
     """Tests for VectorRetrieval."""

@@ -13,7 +13,6 @@ Features:
 
 import hashlib
 import json
-import shutil
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
@@ -87,16 +86,32 @@ class ContentAddressableStorage:
             Content address (hash)
         """
         content_hash = self.compute_hash(content)
+        object_path = self.objects_dir / content_hash
 
         # Check if already stored
         if content_hash in self.index:
+            if not object_path.exists():
+                # Missing object file: restore from supplied content
+                with open(object_path, "w") as f:
+                    f.write(content)
+                self.index[content_hash].reference_count += 1
+                self.save_index()
+                return content_hash
+
+            # Object file exists: verify content hash matches expected content_hash
+            existing_content = object_path.read_text()
+            if self.compute_hash(existing_content) != content_hash:
+                raise ValueError(
+                    f"CAS object corruption detected for address {content_hash}: "
+                    "existing object bytes do not match address hash."
+                )
+
             # Increment reference count
             self.index[content_hash].reference_count += 1
             self.save_index()
             return content_hash
 
         # Store the content
-        object_path = self.objects_dir / content_hash
         with open(object_path, "w") as f:
             f.write(content)
 
